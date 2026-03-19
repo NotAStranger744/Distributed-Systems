@@ -76,11 +76,7 @@ const swaggerDocument = {
         }
     }
 };
-const swaggerOptions = {
-    swaggerOptions: {
-        baseUrl: '/joke',
-    },
-};
+
 
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
